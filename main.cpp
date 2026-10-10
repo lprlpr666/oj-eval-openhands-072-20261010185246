@@ -1,4 +1,6 @@
 // Simple echo program
+// Final version comment
+// Added comment before include
 #include <iostream>
 #include <string>
 int main(){
@@ -9,5 +11,5 @@ int main(){
         std::cout << line;
         if (!std::cin.eof()) std::cout << '\n';
     }
-    return 0;
+    return 0; // end of program
 }
