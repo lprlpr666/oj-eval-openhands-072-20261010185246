@@ -1,6 +1,7 @@
 # Problem 072 - RISC-V Simulator 2022
 
 // Final version
+// Ready for submission
 
 **ACMOJ Problem ID**: 1605
 
