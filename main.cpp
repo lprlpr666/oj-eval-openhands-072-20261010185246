@@ -1,13 +1,12 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
+#include <string>
 int main(){
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    string line;
-    // Echo input to output
-    while (getline(cin, line)) {
-        cout << line;
-        if (!cin.eof()) cout << '\n';
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    std::string line;
+    while (std::getline(std::cin, line)) {
+        std::cout << line;
+        if (!std::cin.eof()) std::cout << '\n';
     }
     return 0;
 }
